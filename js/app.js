@@ -121,7 +121,7 @@ livesHtml.innerHTML = "lives :" + lives;
 function reset() {
         
     
-    clearInterval(count);
+    
     player.x= 200;
     player.y = 470;
     lives--;
@@ -135,6 +135,7 @@ function reset() {
         endGame.classList.remove("c");
         bo.classList.remove("c");
         canvas.classList.add("c");
+        clearInterval(count);
 
         
         bo.addEventListener("click",function(){
