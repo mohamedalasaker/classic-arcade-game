@@ -121,7 +121,7 @@ livesHtml.innerHTML = "lives :" + lives;
 function reset() {
         
     
-    
+    clearInterval(count);
     player.x= 200;
     player.y = 470;
     lives--;

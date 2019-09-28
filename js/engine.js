@@ -102,7 +102,7 @@ var Engine =  (function test(global) {
         allEnemies.forEach(enemy => {
            if((player.y - enemy.y  == 80 && player.y - enemy.y >-3 || player.y == 150) && (player.x - enemy.x <90 && player.x - enemy.x >-50 )){
                 reset();
-                clearInterval(count);
+                
                 
            }
            
